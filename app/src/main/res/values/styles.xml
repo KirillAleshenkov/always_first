@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Basic">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#FFC107</item>
+    <item name="android:textSize">28sp</item>
+        <item name="fontFamily">montserrat_black</item>
+    <item name="android:gravity">center</item>
+</style>
+    <style name="auxiliary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#F186C0</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">pt_sans</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

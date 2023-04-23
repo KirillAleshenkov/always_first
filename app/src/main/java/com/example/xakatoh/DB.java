@@ -16,6 +16,6 @@ public class DB {
             COLUMN_SECOND_NAME_WRITER + " TEXT," +
             COLUMN_MIDDLE_NAME_WRITER + "TEXT," +
             COLUMN_BIRTHDAY_WRITER + "INTEGER," +
-            GROUP_ID + "INTEGER PRIMARY KEY";
+            GROUP_ID + "INTEGER PRIMARY KEY )";
     public static final String DELETE_TABLE = "DROP TABLE IF EXISTS" + TABLE_NAME;
 }

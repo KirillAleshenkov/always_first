@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Dgroup">
 
-    <Button
-        android:id="@+id/button"
-        style="@style/Basic"
-        android:layout_width="410dp"
-        android:layout_height="356dp"
-        android:onClick="onClick"
-        android:text="Взаимодействие с students"
-        app:layout_constraintEnd_toEndOf="parent"
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Название group"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        style="@style/Basic"
-        android:layout_width="410dp"
-        android:layout_height="356dp"
-        android:onClick="onClick1"
-        android:text="Взаимоействие с group stundents"
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="297dp"
+        android:text="Удаление group"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
