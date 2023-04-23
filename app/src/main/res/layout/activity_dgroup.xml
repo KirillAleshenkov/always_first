@@ -13,6 +13,7 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        style="@style/Basic"
         android:hint="Название group"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="297dp"
         android:text="Удаление group"
+        style="@style/Basic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

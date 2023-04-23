@@ -14,6 +14,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Имя"
+        style="@style/Basic"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +27,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Фамилия"
+        style="@style/Basic"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
@@ -38,6 +40,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Отчество"
+        style="@style/Basic"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
@@ -49,20 +52,33 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="10dp"
         android:ems="10"
+        style="@style/Basic"
         android:hint="День рождения"
         android:inputType="date"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
-    <Button
-        android:id="@+id/button3"
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        style="@style/Basic"
+        android:hint="ID group"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="297dp"
         android:text="Добавить Student"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
